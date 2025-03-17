@@ -16,7 +16,8 @@ This repository contains a machine learning pipeline for predicting mycotoxin (D
 │   ├── streamlit_app.py    # Streamlit web app for real-time predictions  
 │-- README.md               # Project documentation and setup instructions  
 │-- requirements.txt        # List of dependencies for the project  
-│-- runtime.txt             # Specifies the Python version required for deployment  
+│-- runtime.txt             # Specifies the Python version required for deployment
+|-- VomitoxinPrediction Short Report.docx  # Short report 
 ```
 
 ## **Setup Instructions**  
