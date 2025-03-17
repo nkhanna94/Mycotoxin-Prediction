@@ -10,14 +10,14 @@ st.set_page_config(
 )
 
 # Load the trained model
-with open("model.pkl", "rb") as f:
+with open("deployment/model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Load scalers
-with open("x_scaler.pkl", "rb") as f:
+with open("deployment/x_scaler.pkl", "rb") as f:
     x_scaler = pickle.load(f)
 
-with open("y_scaler.pkl", "rb") as f:
+with open("deployment/y_scaler.pkl", "rb") as f:
     y_scaler = pickle.load(f)
 
 # Sidebar
